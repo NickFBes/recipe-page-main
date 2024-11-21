@@ -102,3 +102,38 @@ td {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+@media (max-width: 600px) {
+    main {
+        width: 90%; /* Ajusta a largura do main para 90% da tela */
+        padding: 15px; /* Diminui o padding */
+    }
+
+    h1, h2, h3 {
+        font-size: 1.5em; /* Ajusta o tamanho da fonte */
+    }
+
+    img {
+        width: 100%; /* A imagem ocupa 100% da largura do container */
+    }
+
+    .preptime {
+        padding: 10px; /* Diminui o padding */
+    }
+
+    td {
+        padding-left: 20px; /* Diminui o padding das células da tabela */
+    }
+}
+
+
+@media (max-width: 400px) {
+    h1, h2, h3 {
+        font-size: 1.2em; /* Ajusta ainda mais o tamanho da fonte */
+    }
+
+    .linha-separadora {
+        margin: 15px 0; /* Diminui o espaçamento da linha separadora */
+    }
+}
