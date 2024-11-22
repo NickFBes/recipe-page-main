@@ -1,12 +1,13 @@
 h1,
 h2 {
   font-family: "Young Serif", serif;
+  font-weight: 400;
 }
 
 h3,
 p,
 li,
-td {
+td, th {
   font-family: "Outfit", sans-serif;
 }
 
@@ -73,22 +74,25 @@ p{
     margin-bottom: 30px;
 }
 
-th,
-td {
-    padding-left: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+table{
+  width: 100%;
 }
 
-td {
+td, th{
   border-bottom: #d2d2d2 solid 1px;
 }
 
-.tdcolor {
-  color: #85584c;
+th{
+  font-weight: 300;
+    text-align: left;
+    padding-block: 12px;
+    margin-right: 150px;
 }
 
-
+td {
+  color: #85584c;
+  font-weight: 600;
+}
 
 .linha-separadora {
     border-top: 1px solid #d2d2d2; 
@@ -106,34 +110,34 @@ td {
 
 @media (max-width: 600px) {
     main {
-        width: 90%; /* Ajusta a largura do main para 90% da tela */
-        padding: 15px; /* Diminui o padding */
+        width: 75%; 
+        padding: 10px; 
     }
 
     h1, h2, h3 {
-        font-size: 1.5em; /* Ajusta o tamanho da fonte */
+        font-size: 1.5em; 
     }
 
     img {
-        width: 100%; /* A imagem ocupa 100% da largura do container */
+        width: 100%; 
     }
 
     .preptime {
-        padding: 10px; /* Diminui o padding */
+        padding: 10px; 
     }
 
     td {
-        padding-left: 20px; /* Diminui o padding das células da tabela */
+        padding-left: 20px; 
     }
 }
 
 
 @media (max-width: 400px) {
     h1, h2, h3 {
-        font-size: 1.2em; /* Ajusta ainda mais o tamanho da fonte */
+        font-size: 1.2em; 
     }
 
     .linha-separadora {
-        margin: 15px 0; /* Diminui o espaçamento da linha separadora */
+        margin: 10px 0;
     }
 }
